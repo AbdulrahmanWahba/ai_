@@ -1,7 +1,7 @@
 
 from puzzle import get_neighbors, heuristic
 
-def astar_list(start, goal):
+def astar(start, goal):
   
     open_list = [(0, 0, start, [])]
     visited = set()
